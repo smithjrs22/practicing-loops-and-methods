@@ -8,9 +8,8 @@ public class StopAtFive {
             int userInput = Integer.valueOf(input.nextLine());
             if (userInput == 5) {
                 System.out.println("Process finished with exit code 0");
-                break;} else {
-                    continue;
-                }
-            }
+                break;
+            } 
         }
+    }
 }
