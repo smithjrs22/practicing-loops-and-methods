@@ -11,7 +11,7 @@ public class PositiveNumbers {
             System.out.println("Process finished with exit code 0");
                 break;
             }
-        if (num < 0) {
+            if (num < 0) {
             System.out.println("Number must be a positive number");
             continue;
             }  
